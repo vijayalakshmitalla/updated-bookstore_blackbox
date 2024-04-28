@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #f8f9fa;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #e9ecef;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #343a40;
+            text-decoration: none;
+            padding: 10px;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        h1 {
+            color: #343a40;
+        }
+
+        p {
+            color: #6c757d;
+        }
+
+        footer {
+            background-color: #f8f9fa;
+            padding: 20px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        form {
+            padding: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"], input[type="email"], textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            background-color: #ddd;
+        }
+
+        input[type="submit"] {
+            background-color: #007bff;
+            color: white;
+            padding: 10px;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Book Store</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+    <main>
+        <h1>Book Title</h1>
+        <p>Price: $20.00</p>
+        <p>Availability: In Stock</p>
+        <p>Ratings: ★★★☆☆</p>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea><br>
+            <input type="submit" value="Submit">
+        </form>
+    </main>
+    <footer>
+        &copy; 2022 My Book Store
+    </footer>
+</body>
+</html>
